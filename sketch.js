@@ -18,6 +18,7 @@ mindCopy.recoverMind("XOR");
 var shown = false;
 var a = 0;
 
+
 function setup(){
     createCanvas(1000, 1000);
     frameRate(Infinity);
@@ -25,7 +26,7 @@ function setup(){
 
 function draw(){
     background(255);
-    mindCopy.predict([0.5, 0]);
+    mindCopy.predict([1, 0]);
     mindCopy.draw();
 }
 
